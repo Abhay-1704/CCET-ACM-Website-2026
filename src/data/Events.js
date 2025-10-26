@@ -1,6 +1,75 @@
 // Events Data
 export const events = [
     {
+        title: "CYBER WELLNESS CLINIC (CWC)",
+        location: "October 14, 2025",
+        description: "As part of Cyber Awareness Week 2025, CCET ACM and ACM-W Student Chapters, in collaboration with the CSE Department and NITTTR Chandigarh, hosted the Cyber Wellness Clinic (CWC) Workshop. Led by Cybersecurity Expert Mr. Tarun Malhotra, the session focused on practical strategies for digital safety, covering phishing, scams, deepfakes, email security, data protection, cyber laws, and more. Students and faculty actively engaged in discussions, gaining actionable insights to strengthen their cybersecurity awareness.",
+        duration: "2 Hours",
+        difficulty: "Beginner to Intermediate",
+        groupSize: "100+ Students",
+        background: "/Events/CWC/CWC1.png",
+        cardImage: "/Events/CWC/CWC2.png",
+        images: [
+            "/Events/CWC/CWC1.png",
+            "/Events/CWC/CWC3.png",
+            "/Events/CWC/CWC4.png",
+            "/Events/CWC/CWC5.png"
+        ],
+        reactions: {
+            "❤️": { count: 60, text: "participants loved the workshop" },
+            "😊": { count: 48, text: "people enjoyed the interactive discussions" },
+            "👍": { count: 70, text: "found it highly informative" },
+            "😢": { count: 6, text: "people regretted missing the session" },
+            "🎯": { count: 55, text: "participants gained valuable cybersecurity insights" }
+        }
+    },
+    {
+        title: "AI and Generative AI in Cybersecurity",
+        location: "September 12, 2025",
+        description: "CCET ACM and ACM-W Student Chapters, in collaboration with the Department of Computer Science and Engineering, organized a distinguished talk on “AI and Generative AI in Cybersecurity: From Insight to Foresight through Critical Thinking and Generative Innovation” by Dr. Gururaj H. L. The session explored the evolution of AI in security, adversarial attacks, ethical challenges, and the importance of critical thinking and generative innovation in building resilient cybersecurity systems. Students and faculty actively engaged in discussions, gaining deep insights into future-ready security strategies.",
+        duration: "2 Hours",
+        difficulty: "Intermediate to Advanced",
+        groupSize: "100+ Participants",
+        background: "/Events/AIinCybersecurity/AI1.png",
+        cardImage: "/Events/AIinCybersecurity/AI2.png",
+        images: [
+            "/Events/AIinCybersecurity/AI1.png",
+            "/Events/AIinCybersecurity/AI3.png",
+            "/Events/AIinCybersecurity/AI4.png",
+            "/Events/AIinCybersecurity/AI5.png"
+        ],
+        reactions: {
+            "❤️": { count: 75, text: "participants loved the insightful session" },
+            "😊": { count: 52, text: "people enjoyed the engaging discussions" },
+            "👍": { count: 80, text: "found it highly informative and inspiring" },
+            "😢": { count: 5, text: "people regretted missing the talk" },
+            "🎯": { count: 65, text: "participants gained valuable AI and cybersecurity insights" }
+        }
+    },
+    {
+        title: "Five-Year Achievements of NEP 2020",
+        location: "July 31, 2025",
+        description: "The ACM Student Chapter, CCET, organized an insightful expert talk delivered by Prof. Sunil K. Singh, Head, Department of CSE, CCET (Degree Wing), Panjab University. Centered on the theme “Towards Academic Excellence and Research-Driven Nation Building: Five-Year Achievements of NEP 2020 for Viksit Bharat @2047”, the session highlighted the transformative role of NEP 2020 in advancing academic innovation, skill development, and research excellence. Prof. Singh emphasized how education and research are vital to India’s vision of becoming a developed nation by 2047. The event saw active participation from students and faculty, making it both informative and inspiring.",
+        duration: "1.5 Hours",
+        difficulty: "Beginner to Intermediate",
+        groupSize: "25+ Participants",
+        background: "/Events/NEP2020Talk/NEP1.png",
+        cardImage: "/Events/NEP2020Talk/NEP2.png",
+        images: [
+            "/Events/NEP2020Talk/NEP1.png",
+            "/Events/NEP2020Talk/NEP3.png",
+            "/Events/NEP2020Talk/NEP4.png",
+            "/Events/NEP2020Talk/NEP5.png"
+        ],
+        reactions: {
+            "❤️": { count: 22, text: "participants appreciated the insightful session" },
+            "😊": { count: 20, text: "people enjoyed the engaging and informative talk" },
+            "👍": { count: 19, text: "found the discussion inspiring and thought-provoking" },
+            "😢": { count: 5, text: "people regretted missing the session" },
+            "🎯": { count: 23, text: "participants gained valuable insights on NEP 2020 and nation building" }
+        }
+    },
+    {
         title: "GENERATIVE AI",
         location: "August 22, 2025",
         description: "ACM-W hosted a session on Generative AI, exploring how this technology is shaping the present and transforming the future. Speakers Aanshi Bansal and Bhavya shared key insights, while participants engaged in thought-provoking discussions on the potential of AI.",
